@@ -7,4 +7,4 @@
 * Basic project folder structure
 * Copy paste ready 😈
 ## Preview
-![alt text](https://github.com/54ul/QT5-XUL-TEMPLATE/main/img/screenshot.png.jpg?raw=true)
+![alt text](https://github.com/54UL/QT5-XUL-TEMPLATE/blob/main/img/screenshot.png?raw=true)
