@@ -1,4 +1,4 @@
-# QT5 XUL's STARTUP PROJECT TEMPLATE
+# XUL's QT5 STARTUP PROJECT TEMPLATE
 --------------------
 
 * Linux only
