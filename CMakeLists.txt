@@ -14,7 +14,7 @@ set(CMAKE_PREFIX_PATH "/opt/Qt/5.12.5/gcc_64/lib/cmake") # CHANGE THIS TO YOUR Q
 # COMPILE CONFIGURATIONS
 set(XUL_TEMPLATE_DEBUG ON)# USE THIS TO CONTROL VERBOSE MESSAGES
 set(XUL_TEMPLATE_TARGET "Linux")# USE THIS FOR PLATFORM SELECTION
-set(APP_DEPLOY_MODE "Debug")# USE THIS TO DEFINE HOW YOUR CODE I'LL BE COMPILED
+set(APP_DEPLOY_MODE "Debug")# USE THIS TO DEFINE HOW YOUR CODE WILL BE COMPILED
 
 # TERMINAL INPUT ARG DEFINED IN CODE (CMAKE CONFIGURE) TEMPLATE
 #   ...
@@ -64,6 +64,6 @@ set(XUL_TEMPLATE_RESOURCES "template-app/resources/qml.qrc")
 # XUL TEMPLATE EXECUTABLE (QT5) 
 #-------------------------------------------------------------------------------------------------
 add_executable(XUL_TEMPLATE ${XUL_TEMPLATE_HEADERS} ${XUL_TEMPLATE_SOURCES} ${XUL_TEMPLATE_RESOURCES})
-target_link_libraries(XUL_TEMPLATE  PUBLIC Qt5::Core Qt5::Quick Qt5::Widgets)
+target_link_libraries(XUL_TEMPLATE PUBLIC Qt5::Core Qt5::Quick Qt5::Widgets)
 
 
