@@ -6,8 +6,8 @@ import QtQuick.Window 2.12
 
 ApplicationWindow 
 {
-	id: template_app_window
-	visible: true
+    id: template_app_window
+    visible: true
     width: 760
     height: 540
     background: Rectangle { color: "#9575cd"}
